@@ -1,59 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yutinfo's GitHub Page</title>
-    <link rel="stylesheet" href="styles/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kittisak Inthisaen — Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Kittisak Inthisaen (Yutinfo): full-stack developer building SaaS, developer tools and AI-powered products with Next.js, Laravel, Python and Claude Code.">
+<meta property="og:title" content="Kittisak Inthisaen — Full-Stack Developer">
+<meta property="og:description" content="SaaS, developer tools and AI-powered products. Built with AI agents as a daily driver.">
+<meta property="og:url" content="https://yutinfo.github.io/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>👋 Hi, I'm Yutinfo!</h1>
-            <p>Welcome to my GitHub profile! I'm a passionate developer who loves to learn and create.</p>
-        </div>
-    </header>
+<a class="skip" href="#projects">Skip to projects</a>
 
-    <main class="container">
-        <section>
-            <h2>🔧 Technologies & Tools</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> JavaScript, TypeScript, Python, Go</li>
-                <li><strong>Frameworks:</strong> Node.js, Express, React, Next.js</li>
-                <li><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL</li>
-                <li><strong>Cloud Services:</strong> AWS (Lambda, S3, RDS), Docker</li>
-                <li><strong>Other Tools:</strong> Git, Docker, CI/CD, Terraform</li>
-            </ul>
-        </section>
+<header class="top">
+  <nav class="container nav" aria-label="Primary">
+    <a class="brand" href="#top">yutinfo<span>.</span></a>
+    <div class="links">
+      <a href="#projects">Projects</a>
+      <a href="#stack">Stack</a>
+      <a href="#ai">AI</a>
+      <a href="#contact">Contact</a>
+      <button class="theme" id="theme" type="button" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </nav>
+</header>
 
-        <section>
-            <h2>📈 GitHub Stats</h2>
-            <img src="https://github-readme-stats.vercel.app/api?username=yutinfo&show_icons=true&theme=radical" alt="Yutinfo's GitHub Stats">
-        </section>
+<main id="top">
+  <section class="hero container">
+    <p class="eyebrow">Full-Stack Developer · Thailand 🇹🇭</p>
+    <h1>Hi, I'm <span class="grad">Kittisak Inthisaen</span>.</h1>
+    <p class="lead">I build end-to-end products — from multi-tenant SaaS back-ends to single-file browser tools — and use <strong>AI-assisted development</strong> with Claude Code and multi-agent workflows as a daily driver to ship faster.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">See my work</a>
+      <a class="btn" href="https://github.com/yutinfo" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="btn" href="https://www.linkedin.com/in/kittisak-inthisaen-5b6550107/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <dl class="facts">
+      <div><dt>Public repos</dt><dd>13</dd></div>
+      <div><dt>Live demos</dt><dd>2</dd></div>
+      <div><dt>Building since</dt><dd>2015</dd></div>
+      <div><dt>Focus</dt><dd>SaaS · Tools · AI</dd></div>
+    </dl>
+  </section>
 
-        <section>
-            <h2>🌱 Currently Learning</h2>
-            <ul>
-                <li>Advanced TypeScript</li>
-                <li>Go API Development</li>
-                <li>Cloud Infrastructure with AWS</li>
-            </ul>
-        </section>
+  <section id="projects" class="container">
+    <h2>Featured projects</h2>
+    <p class="sub">A selection of what I've shipped. Everything below is open source on GitHub unless marked otherwise.</p>
 
-        <section>
-            <h2>📫 How to Reach Me</h2>
-            <ul>
-                <li><strong>Email:</strong> yutinfo@example.com</li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yutinfo">Yutinfo LinkedIn</a></li>
-                <li><strong>Website:</strong> <a href="https://yutinfo.com">yutinfo.com</a></li>
-            </ul>
-        </section>
-    </main>
+    <h3>Full-stack apps &amp; SaaS</h3>
+    <div class="grid">
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/petcare-clinic" target="_blank" rel="noopener">PetCare Cloud</a></h4><span class="badge new">2026</span></header>
+        <p>Multi-tenant SaaS for veterinary clinics: patient records, prescriptions, boarding, grooming, POS and Thai tax invoices (full &amp; abbreviated). Owner portal with online booking, th/en i18n.</p>
+        <ul class="tags"><li>Next.js 15</li><li>TypeScript</li><li>Prisma</li><li>PostgreSQL 16</li></ul>
+      </article>
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/corporate-web-demo" target="_blank" rel="noopener">Org Web CMS</a></h4></header>
+        <p>Corporate website plus admin CMS: RBAC, Tiptap rich-text editor, draft/publish workflow, page version snapshots and S3-ready media uploads.</p>
+        <ul class="tags"><li>Next.js 15</li><li>React 19</li><li>Prisma</li><li>Auth.js</li></ul>
+      </article>
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/tiny-transport" target="_blank" rel="noopener">Tiny Transport</a></h4></header>
+        <p>Logistics &amp; parcel management: public tracking page, admin back-office for orders, delivery rounds, drivers and COD/cost reports, plus a driver portal.</p>
+        <ul class="tags"><li>Laravel 9</li><li>Vue 3</li><li>AdminLTE</li><li>Docker</li></ul>
+      </article>
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/multiple-agent-test-app" target="_blank" rel="noopener">Kanban Board MVP</a></h4><span class="badge ai">AI-built</span></header>
+        <p>Drag-and-drop Kanban built entirely by a 6-subagent Claude Code pipeline: architect → backend → frontend → devops → reviewer → QA.</p>
+        <ul class="tags"><li>Next.js</li><li>MongoDB</li><li>Tailwind</li><li>Docker</li></ul>
+      </article>
+    </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Yutinfo. All rights reserved.</p>
-        </div>
-    </footer>
+    <h3>Developer tools</h3>
+    <div class="grid">
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/dev-hero" target="_blank" rel="noopener">DevHero</a></h4><a class="live" href="https://dev-hero-steel.vercel.app" target="_blank" rel="noopener">● Live</a></header>
+        <p>Suite of dev utilities: Base64, JSON with Monaco, live HTML editor, Lorem Ipsum, mock images and a Thai/English synthetic data generator.</p>
+        <ul class="tags"><li>Next.js 14</li><li>TypeScript</li><li>Tailwind</li></ul>
+      </article>
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/jsonStudio" target="_blank" rel="noopener">JSON Studio</a></h4></header>
+        <p>Zero-build browser JSON viewer/editor: raw editor with live validation, collapsible pretty view, editable tree view and search.</p>
+        <ul class="tags"><li>HTML</li><li>Vanilla JS</li><li>Tailwind</li></ul>
+      </article>
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/prompt-benchmark" target="_blank" rel="noopener">Prompt Benchmark</a></h4></header>
+        <p>Side-by-side "bad vs good" prompt cases that show how prompt quality changes AI-generated front-end code.</p>
+        <ul class="tags"><li>Prompt engineering</li><li>HTML</li></ul>
+      </article>
+    </div>
+
+    <h3>AI &amp; desktop</h3>
+    <div class="grid">
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/Background-Remover-Studio" target="_blank" rel="noopener">Background Remover Studio</a></h4></header>
+        <p>AI background removal web app powered by BiRefNet, with a batch queue, colour presets and a glassmorphism UI.</p>
+        <ul class="tags"><li>Python 3.11</li><li>FastAPI</li><li>HuggingFace</li><li>Docker</li></ul>
+      </article>
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/MP3TagEditor" target="_blank" rel="noopener">MP3 Tag Editor</a></h4></header>
+        <p>Windows desktop app for bulk-editing ID3 tags and cover art, with per-file drafts and dark/light mode.</p>
+        <ul class="tags"><li>Python</li><li>customtkinter</li><li>mutagen</li></ul>
+      </article>
+    </div>
+
+    <h3>Real-time &amp; games</h3>
+    <div class="grid">
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/Scrum-Poker-Online" target="_blank" rel="noopener">Scrum Poker Online</a></h4><a class="live" href="https://scrum-poker-online-five.vercel.app" target="_blank" rel="noopener">● Live</a></header>
+        <p>Real-time planning-poker board with presence heartbeat, host takeover, custom decks and vote analytics.</p>
+        <ul class="tags"><li>Vanilla JS</li><li>Firebase RTDB</li><li>Vercel</li></ul>
+      </article>
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/PokDeng" target="_blank" rel="noopener">ป๊อกเด้งออนไลน์</a></h4></header>
+        <p>Real-time multiplayer Thai card game in the browser with virtual chips, Firebase security rules and a Node test suite. No build step.</p>
+        <ul class="tags"><li>Vanilla JS</li><li>Firebase</li><li>CSS cards</li></ul>
+      </article>
+      <article class="card">
+        <header><h4><a href="https://github.com/yutinfo/verdant" target="_blank" rel="noopener">Verdant Sanctuary</a></h4></header>
+        <p>Cinematic editorial landing page concept: scroll-driven scenes, interactive floor plan, gallery and reduced-motion support.</p>
+        <ul class="tags"><li>React 19</li><li>Vite 8</li><li>Tailwind 4</li><li>Cloudflare Workers</li></ul>
+      </article>
+    </div>
+
+    <h3>Off-GitHub &amp; professional work</h3>
+    <div class="grid">
+      <article class="card muted">
+        <header><h4>Household Expense Bot</h4><span class="badge">Private</span></header>
+        <p>LINE group bot for family bookkeeping: type <code>ค่าส้มตำ 200</code> in plain Thai and it categorises, logs to Google Sheets and summarises. Signed webhook on a Cloudflare Worker, logic in Apps Script, 117 automated tests.</p>
+        <ul class="tags"><li>Cloudflare Workers</li><li>Apps Script</li><li>LINE Messaging API</li></ul>
+      </article>
+      <article class="card muted">
+        <header><h4>KK Hotel design system</h4><span class="badge">Design</span></header>
+        <p>End-to-end hotel booking UX in Figma: search, room select, payment, AI trip planner, back-office for refunds, fraud and reconciliation, error states and a component language.</p>
+        <ul class="tags"><li>Figma</li><li>Design tokens</li><li>Handoff spec</li></ul>
+      </article>
+      <article class="card muted">
+        <header><h4>Odoo ERP customisation</h4><span class="badge">Client</span></header>
+        <p>Odoo 19 implementation for an e-commerce retailer: purchase, inventory, budget, accounting and rental modules driven by a BRD knowledge vault and 240+ documented process flows.</p>
+        <ul class="tags"><li>Odoo 19</li><li>Python</li><li>PostgreSQL</li><li>Docker</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="stack" class="container">
+    <h2>Stack</h2>
+    <div class="stack">
+      <div><h3>Languages</h3><ul class="tags big"><li>TypeScript</li><li>JavaScript</li><li>Python</li><li>PHP</li><li>Go</li></ul></div>
+      <div><h3>Frameworks</h3><ul class="tags big"><li>Next.js</li><li>React</li><li>Node.js</li><li>Laravel</li><li>Vue</li><li>FastAPI</li><li>Odoo</li><li>Tailwind CSS</li></ul></div>
+      <div><h3>Data</h3><ul class="tags big"><li>PostgreSQL</li><li>Prisma</li><li>MySQL</li><li>MongoDB</li><li>Firebase</li></ul></div>
+      <div><h3>Cloud &amp; DevOps</h3><ul class="tags big"><li>Vercel</li><li>Cloudflare</li><li>AWS</li><li>Docker</li><li>Terraform</li><li>GitHub Actions</li></ul></div>
+    </div>
+  </section>
+
+  <section id="ai" class="container">
+    <h2>AI-powered workflow</h2>
+    <p class="sub">Building with AI every day — from pair-programming to autonomous multi-agent pipelines.</p>
+    <ul class="list">
+      <li><strong>AI-assisted coding</strong> — Claude Code, GitHub Copilot and Cursor as everyday tools.</li>
+      <li><strong>Multi-agent workflows</strong> — orchestrating specialised subagents (architect / backend / frontend / QA) to build whole apps.</li>
+      <li><strong>Prompt engineering</strong> — benchmarking prompt quality and its effect on generated code.</li>
+      <li><strong>Applied ML</strong> — shipping models like BiRefNet into usable products.</li>
+    </ul>
+    <h3>Currently exploring</h3>
+    <ul class="tags big"><li>Multi-tenant SaaS architecture</li><li>Claude Code subagents</li><li>Cloudflare Workers</li><li>Go API development</li></ul>
+  </section>
+
+  <section id="contact" class="container contact">
+    <h2>Let's talk</h2>
+    <p class="sub">Open to discussing technology, AI, collaboration, or anything else.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:yutinfo.k@gmail.com">yutinfo.k@gmail.com</a>
+      <a class="btn" href="https://github.com/yutinfo" target="_blank" rel="noopener">github.com/yutinfo</a>
+      <a class="btn" href="https://www.linkedin.com/in/kittisak-inthisaen-5b6550107/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<footer class="container foot">
+  <p>© <span id="year">2026</span> Kittisak Inthisaen · Built with a little help from AI 🤖</p>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement, btn=document.getElementById('theme');
+  try{var saved=localStorage.getItem('theme'); if(saved) root.setAttribute('data-theme',saved);}catch(e){}
+  btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')==='dark' || (!root.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    var next=dark?'light':'dark'; root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next);}catch(e){}
+  });
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
 </body>
 </html>
